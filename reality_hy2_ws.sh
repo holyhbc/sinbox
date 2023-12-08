@@ -593,7 +593,7 @@ EOF
 create_shortcut() {
   cat > /root/sbox/singbox-hbc.sh << EOF
 #!/usr/bin/env bash
-bash <(curl -fsSL https://github.com/holyhbc/sinbox/blob/main/reality_hy2_ws.sh) \$1
+bash <(curl -fsSL https://github.com/holyhbc/sinbox/raw/main/reality_hy2_ws.sh) \$1
 EOF
   chmod +x /root/sbox/singbox-hbc.sh
   ln -sf /root/sbox/singbox-hbc.sh /usr/bin/singbox-hbc
