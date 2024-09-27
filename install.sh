@@ -533,8 +533,8 @@ jq -n --arg listen_port "$listen_port" --arg server_name "$server_name" --arg pu
   "experimental": {
     "clash_api": {
       "external_controller": "127.0.0.1:9090",
-      "secret": "",
-      "store_selected": true
+      "secret": ""
+      
     }
   },
   "inbounds": [
