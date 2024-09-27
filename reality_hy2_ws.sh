@@ -432,8 +432,8 @@ cat << EOF
   "experimental": {
     "clash_api": {
       "external_controller": "127.0.0.1:9090",
-      "secret": "",
-      "store_selected": true
+      "secret": ""
+      
     }
   },
   "log": {
